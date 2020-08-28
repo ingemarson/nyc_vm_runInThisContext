@@ -1,0 +1,16 @@
+{
+  "name": "code_coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha 'spec/**/*.spec.js' --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-hook-run-in-this-context": "^1.0.0",
+    "mocha": "^8.1.2",
+    "nyc": "^15.1.0"
+  }
+}
